@@ -1,0 +1,49 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size:60px;
+}
+.color{
+    color: orange;
+}
+.mota{
+    font-weight:bold;
+}
+.link{
+    padding:20px 40px;
+    margin-top:50px;
+    color:black;
+    background-image: linear-gradient(orange, tomato);
+    text-decoration: none;
+    border-radius: 5px;
+    
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+.half-width img{
+    width: 80%;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.middle-banner{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.blur{
+    border-radius:10px;
+    background-color: antiquewhite;
+    margin: 50px;
+    padding:50px;
+    box-shadow: 10px 10px 10px gray;
+}
